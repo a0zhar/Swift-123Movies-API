@@ -8,14 +8,16 @@
 
 import Foundation
 
+//
+// Define a struct to represent a Movie
 struct Movie {
-    let id: String
-    let title: String
-    let poster: String
-    let description: String
-    let imdbScore: Float
-    let genres: [String]
-    let year: String
-    let episodeLength: String
-    let quality: String
+    let id: String             // Unique identifier or URL for the movie
+    let title: String          // The title of the movie
+    let poster: String         // URL or path to the poster image of the movie
+    let description: String    // Brief description of the movie
+    let imdbScore: Float       // IMDb score of the movie (using Float for the score)
+    let genres: [String]       // Array of genres associated with the movie
+    let year: String           // Release year of the movie
+    let episodeLength: String  // Length of the movie in minutes
+    let quality: String        // Quality of the movie (e.g., HD, SD)
 }
